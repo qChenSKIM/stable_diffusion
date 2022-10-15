@@ -5,6 +5,7 @@
 Stable diffusion model is very big to download locally, it requires large storage space.
 
 ## steps:
+0. in huggingface, get your token, create `.env` file with `HG_TOKEN=your_huggingface_token`, don't forget to get access from [stable-diffusion-v1-4](https://huggingface.co/CompVis/stable-diffusion-v1-4)
 1. create a git repo and upload to github
 2. start EC2 instance with ubuntu system (enable ssh, allow all traffic into this instance)
 3. ssh into EC2 instance
